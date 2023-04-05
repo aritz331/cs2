@@ -1,2 +1,2 @@
 # cs2
-counter strike 2
+(unrelated to counter strike 2)
