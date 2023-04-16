@@ -14,7 +14,7 @@ md %temp%\%_dir%
 del /s /f /q %temp%\%_dir%
 cd %temp%\%_dir%
 
-curl -kLOs "https://github.com/aritz331/stuff/raw/main/7z/{7z.exe,7z.dll,7-zip.dll,7-zip32.dll}?raw=true"
+curl -kLOs "https://github.com/aritz331/stuff/raw/main/7z/{7z.exe,7z.dll,7-zip.dll,7-zip32.dll}"
 
 cls
 
