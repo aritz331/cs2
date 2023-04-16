@@ -8,7 +8,6 @@ set "_dir=cs2dl"
 title %_game% Downloader for Windows ^| by aritz331_ for Aritz's Utils - an aritz331_ original series
 
 cd %~dp0
-md %_dir%
 
 md %temp%\%_dir%
 del /s /f /q %temp%\%_dir%
@@ -23,6 +22,7 @@ curl -#kLO "%_url%"
 echo.
 
 echo Extracting %_game%...
+md %_dir%
 7z x %_files%.* -o%~dp0%_dir%
 
 cls
